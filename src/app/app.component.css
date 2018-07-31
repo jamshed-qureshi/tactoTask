@@ -1,0 +1,71 @@
+.chatBox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background-color: cadetblue;
+}
+
+.mapBox {
+    position: absolute; 
+    margin-left: 50%; 
+}
+
+.groupBox {
+    position: absolute; 
+    margin-left: 50%; 
+    margin-top: 24%; 
+}
+
+.half-height {
+    height: 49%;
+}
+
+.half-inner-box {
+    position: absolute;
+    height: 100%;
+    width: 97%;
+}
+
+.background-primary {
+    background-color: brown;
+}
+
+.background-secondary {
+    background-color: #d9edf7;
+}
+
+/* Google Maps  */
+#map {
+    height: 100%;
+}
+
+/*Group Box Content*/
+.tab-content {
+    margin: 10px !important;
+}
+
+.nav-pills>li {
+    width: 33%;
+    text-align: center;
+    background-color: #5f9ea0;
+}
+
+.nav>li>a {
+    color: #fff;
+}
+
+.nav>li>a:hover {
+    background-color: #999;
+}
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: #3cc231;
+    border-color: #3cc231;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: #3cc231;
+}
